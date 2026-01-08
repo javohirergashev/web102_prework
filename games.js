@@ -88,17 +88,6 @@ const games = ` [
     "backers": 9264,
     "img": "./assets/kingdom_death.png"
   }
-]
-`
-const template = `
-{
-"name": "",
-"description": "",
-"pledged": 0,
-"goal": 0,
-"backers": 0,
-"img": ""
-},
-`
+]`;
 
 export default games;
