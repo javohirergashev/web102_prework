@@ -1,54 +1,64 @@
-# Sea Monster Crowdfunding
+# WEB102 Prework - Sea Monster Crowdfunding
 
-This is a crowdfunding website built as part of the **CodePath WEB102 – Intermediate Web Development prework**.  
-The site displays crowdfunding game data, allows filtering funded and unfunded games, and presents summary statistics using JavaScript DOM manipulation.
+Submitted by: **Javokhir Ergashev**
 
----
+Sea Monster Crowdfunding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded, including statistics, funding status, and filtering functionality.
 
-## 🎮 Features
-
-### Required Features
-
--   Displays a list of crowdfunding games dynamically from provided JSON data
--   Shows total contributions, total amount raised, and number of games
--   Displays the top funded game and runner-up based on pledged amount
--   Allows users to filter:
-    -   Unfunded games
-    -   Funded games
-    -   All games
--   Uses array methods such as `map`, `filter`, `reduce`, and `sort`
-
-### Additional Features
-
--   Visual indicators for funded vs unfunded games
--   Hover effects on game cards
--   “Go to Top” floating button with smooth scrolling
--   Footer with project attribution
--   Responsive layout using Flexbox
--   Clean UI styling and micro-interactions (button scaling)
+Time spent: **9 hours** spent in total
 
 ---
 
-## 📸 Walkthrough
+## Required Features
 
-Here is a walkthrough of the implemented features:
+The following required functionality is completed:
 
-<img src="walkthrough.gif" width="800"/>
-Used LiceCap
-
----
-
-## 🛠️ Technologies Used
-
--   HTML
--   CSS
--   JavaScript (ES6)
--   DOM Manipulation
+-   [x] The introduction section explains the background of the company and how many games remain unfunded.
+-   [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+-   [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding.
+-   [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 ---
 
-## 👤 Author
+## Optional Features
 
-Created by **Javokhir Ergashev** as part of the CodePath prework.
+The following optional features are implemented:
+
+-   [x] “Go to Top” floating button with smooth scrolling
+-   [x] Hover and active-state button animations
+-   [x] Responsive layout using Flexbox
+-   [x] Clean UI card design with visual hierarchy
+-   [x] Footer with project attribution and educational disclaimer
 
 ---
+
+## Video Walkthrough
+
+Here's a walkthrough of the implemented features:
+
+<img src="walkthrough.gif" width="800" />
+
+GIF created with **LiceCap**
+
+---
+
+## Notes
+
+One challenge encountered while building the app was ensuring the correct order of displayed games when sorting and filtering data, as JavaScript’s `sort()` method mutates the original array. This was resolved by carefully controlling when sorting occurred and how the data was passed to rendering functions.
+
+---
+
+## License
+
+Copyright 2026 Javokhir Ergashev
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
