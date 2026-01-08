@@ -35,6 +35,7 @@ Here is a walkthrough of the implemented features:
 
 <img src="walkthrough.gif" width="800"/>
 Used LiceCap
+
 ---
 
 ## 🛠️ Technologies Used
