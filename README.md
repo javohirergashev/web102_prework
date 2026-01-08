@@ -34,7 +34,7 @@ The site displays crowdfunding game data, allows filtering funded and unfunded g
 Here is a walkthrough of the implemented features:
 
 <img src="walkthrough.gif" width="800"/>
-
+Used LiceCap
 ---
 
 ## 🛠️ Technologies Used
