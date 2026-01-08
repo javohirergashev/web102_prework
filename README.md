@@ -43,7 +43,7 @@ GIF created with **LiceCap**
 
 ## Notes
 
-One challenge encountered while building the app was ensuring the correct order of displayed games when sorting and filtering data, as JavaScript’s `sort()` method mutates the original array. This was resolved by carefully controlling when sorting occurred and how the data was passed to rendering functions.
+One challenge encountered while building the app was ensuring the correct order of displayed games when sorting and filtering data, as JavaScript’s `sort()` method mutates the original array. This was resolved by controlling when sorting occurred and where the function was called.
 
 ---
 
@@ -55,7 +55,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-http://www.apache.org/licenses/LICENSE-2.0
+  http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
